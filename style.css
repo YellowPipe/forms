@@ -1,0 +1,8 @@
+.error {
+	color: red;
+}
+
+.invalid {
+  border-color: #900;
+  background-color: #FDD;
+}

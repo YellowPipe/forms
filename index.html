@@ -3,9 +3,30 @@
 <head>
 	<title>Form</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-
+	<form>
+		Email:<br>
+		<input type="email" name="email" id="email"><br>
+		<p id="emailError" class="error"></p>
+		Email confirmation:<br>
+		<input type="email" name="email confirmation" id="emailConfirm"><br>
+		<p id="confirmEmailError" class="error"></p>
+		Country:<br>
+		<input type="text" name="country" id="country"><br>
+		<p id="countryError" class="error"></p>
+		Zip Code:<br>
+		<input type="number" name="zip code" id="zip"><br>
+		<p id="zipError" class="error"></p>
+		Password:<br>
+		<input type="password" name="password" id="pass"><br>
+		<p id="passError" class="error"></p>
+		Password confirmation:<br>
+		<input type="password" name="password confirmation" id="passConfirm"><br>
+		<p id="confirmPassError" class="error"></p>
+		<input type="submit" value="Submit" >
+	</form>
 </body>
+<script type="text/javascript" src="script.js"></script>
 </html>
+<!-- onclick="addBook(getTitle(), getAuthor()), render()" -->
